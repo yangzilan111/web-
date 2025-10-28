@@ -1,0 +1,93 @@
+/* 全局样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Microsoft Yahei", sans-serif;
+}
+
+/* 顶部导航栏样式 */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.top-nav a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 13px;
+}
+
+.top-nav .weather-setting {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+
+.top-nav .weather-setting a {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+/* 搜索区域样式 */
+.search-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.baidu-logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.search-btn {
+    background-color: #4e6ef2;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 底部工具样式（简化） */
+.bottom {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.tool-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
